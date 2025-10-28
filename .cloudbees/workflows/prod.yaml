@@ -1,0 +1,14 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: prod
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    steps:
+      - uses: cloudbees-io/register-deployed-artifact@v2
+        with:
+          labels: Go-thu-oct-9
+          artifact-id: b3a58b05-0b04-4592-92ba-b54fa9029dae
+          target-environment: ecr-qa

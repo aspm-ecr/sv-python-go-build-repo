@@ -10,5 +10,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: Go-thu-oct-29
-          artifact-id: 6a8bb3f3-639a-474b-b433-7c7074d9d8d2
+          artifact-id: d15e3a7c-ddc6-46ab-83ab-46fdd46305eb
           target-environment: ecr-qa      

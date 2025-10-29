@@ -15,5 +15,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: pre-prod
-          artifact-id: 55732b62c-445f-4d21-b30d-95452737632e
+          artifact-id: 5732b62c-445f-4d21-b30d-95452737632e
           target-environment: aspm-pre-production

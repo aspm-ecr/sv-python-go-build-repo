@@ -10,10 +10,10 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: Go-thu-oct-29
-          artifact-id: 19c1c793-63ce-45fd-9784-c07cd891eb3e
+          artifact-id: e777d622-42cb-4ac2-bd67-5f920b50afdf
           target-environment: ecr-qa      
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: pre-prod
-          artifact-id: 5732b62c-445f-4d21-b30d-95452737632e
+          artifact-id: e777d622-42cb-4ac2-bd67-5f920b50afdf
           target-environment: aspm-pre-production
